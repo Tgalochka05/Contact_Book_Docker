@@ -9,14 +9,14 @@
 1. Скачайте .zip файл и распакуйте в удобной для вас папке:
 
 2. Создайте файл .env:
-
-POSTGRES_DB=teachers_db
-POSTGRES_USER=teachers_user
-POSTGRES_PASSWORD=teachers_password
-SECRET_KEY=your-secret-key-here
+```bash
+POSTGRES_DB=contacts_db
+POSTGRES_USER=contacts_user
+POSTGRES_PASSWORD=657lol657
+SECRET_KEY='django-insecure-pmxtv*wfm#-7^k6@3wgtqoigo7)+x56$^$sn^*uury&5y&pld*'
 DEBUG=True
 ALLOWED_HOSTS=localhost,127.0.0.1
-
+```
 3. Запустите приложение:
 ```bash
 docker-compose up --build
